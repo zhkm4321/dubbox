@@ -1,13 +1,11 @@
-#dubbos
-dubbos主要是基于dubbox的基础上，进行进一步的优化及拓展
+#dubbox
+dubbox主要是基于dubbox的基础上，进行进一步的优化及拓展（其实我就是想找个稳定的高版本dubbo安装到本地仓库里，为了其他项目用）
+JDK1.6编译通过没问题。现在好多dubbox都用高版本编译，低版本JDK的环境用不了。
 
 ## 主要贡献者
+原来dubbox社区的那帮人
 
-* 齐龙 [乐影网](http://www.leying.com/) qilongjava@163.com
-
-**讨论QQ群**： 93849809  （不限于dubbos，包括SOA设计、互联网技术等等兴趣交流）
-
-## Dubbos当前的主要功能
+## dubbox当前的主要功能
 
 * **支持REST风格远程调用（HTTP + JSON/XML)**：基于非常成熟的JBoss [RestEasy](http://resteasy.jboss.org/)框架，在dubbo中实现了REST风格（HTTP + JSON/XML）的远程调用，以显著简化企业内部的跨语言交互，同时显著简化企业对外的Open API、无线API甚至AJAX服务端等等的开发。事实上，这个REST调用也使得Dubbo可以对当今特别流行的“微服务”架构提供基础性支持。 另外，REST调用也达到了比较高的性能，在基准测试下，HTTP + JSON与Dubbo 2.x默认的RPC协议（即TCP + Hessian2二进制序列化）之间只有1.5倍左右的差距，详见文档中的基准测试报告。
 
@@ -27,7 +25,7 @@ dubbos主要是基于dubbox的基础上，进行进一步的优化及拓展
 
 * **修正了dubbo的bug** 包括配置、序列化、管理界面等等的bug。
 
-**注：dubbos和dubbo 2.x是兼容的，没有改变dubbo的任何已有的功能和配置方式（除了升级了spring之类的版本）**
+**注：dubbox和dubbo 2.x是兼容的，没有改变dubbo的任何已有的功能和配置方式（除了升级了spring之类的版本）**
 
 ## 文档资料
 
@@ -40,16 +38,6 @@ dubbos主要是基于dubbox的基础上，进行进一步的优化及拓展
 [Dubbo Jackson序列化使用说明](http://dangdangdotcom.github.io/dubbox/jackson.html)
 
 [Demo应用简单运行指南](http://dangdangdotcom.github.io/dubbox/demo.html)
-
-## 版本
-
-详见：http://git.oschina.net/qilong/dubbos
-
-
-
-* **dubbos-3.01**: 在dubbox-2.8.4的基础上进行优化及拓展
-    * 升级spring4.x依赖并解决已知bug
-## 依赖
 
 ### REST风格远程调用
 
@@ -155,7 +143,7 @@ dubbos主要是基于dubbox的基础上，进行进一步的优化及拓展
 
 ### Dubbox需要什么版本的JDK？
 
-目前最好在JDK 1.8以上运行
+目前最好在JDK 1.7以上运行
 
 ### Dubbo REST的服务能和Dubbo注册中心、监控中心集成吗？
 
