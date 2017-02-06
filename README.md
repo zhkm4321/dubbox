@@ -31,7 +31,7 @@ JDK1.6编译通过没问题。现在好多dubbox都用高版本编译，低版�
 
 [在Dubbo中开发REST风格的远程调用（RESTful Remoting）](http://dangdangdotcom.github.io/dubbox/rest.html)
 
-[在Dubbo中使用高效的Java序列化（Kryo和FST）](http://dangdangdotcom.github.io/dubbox/serialization.html)
+[在Dubbo中使用高效的Java序列化（Kryo和FST）](http://www.zheng-hang.com/?id=79)
 
 [使用JavaConfig方式配置dubbox](http://dangdangdotcom.github.io/dubbox/java-config.html)
 
